@@ -1,6 +1,7 @@
 import React from "react";
 import "./styles/Landing.css";
 import header from "../assets/header-shape.png";
+import { Link } from "react-router-dom";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faArrowRight, faSignInAlt } from "@fortawesome/free-solid-svg-icons";
 const Landing = (props) => {
@@ -26,12 +27,16 @@ const Landing = (props) => {
               Using Machine Learning !!!
             </p>
             <div className="Landing-text-btn-container">
-              <button className="Landing-text-btn">
-                Get Started <FontAwesomeIcon icon={faArrowRight} />
-              </button>
-              <button className="Landing-text-btn">
-                Sign In <FontAwesomeIcon icon={faSignInAlt} />
-              </button>
+              <Link to="login">
+                <button className="Landing-text-btn active">
+                  Get Started <FontAwesomeIcon icon={faArrowRight} />
+                </button>
+              </Link>
+              <Link to="signup">
+                <button className="Landing-text-btn">
+                  Sign In <FontAwesomeIcon icon={faSignInAlt} />
+                </button>
+              </Link>
             </div>
           </div>
         </div>

@@ -1,11 +1,6 @@
 .Landing {
   height: 100vh;
   width: 100vw;
-  background-image: url("D:/projects/skin-cancer-detection/src/assets/header-bg-shape.png");
-  background-repeat: no-repeat;
-  background-position: center bottom;
-  background-color: rgba(0, 0, 0, 0.01);
-  background-size: 95%;
 
   display: flex;
   flex-direction: column;
@@ -52,19 +47,28 @@
   justify-content: flex-start;
   align-items: center;
 }
+
 .Landing-text-btn {
   padding: 0.7rem 2rem;
   font-size: 1rem;
   font-weight: 700;
-  background-color: #0000ff;
-  color: #fff;
+  background-color: #fff;
   margin-right: 2rem;
   border-radius: 10px;
   cursor: pointer;
   border: none;
-  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+  transition: 0.5s;
 }
-
+.active {
+  background-color: #0000ff;
+  color: #fff;
+}
+.Landing-text-btn:hover {
+  background-color: #0000ff;
+  color: #fff;
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.4);
+}
 .Landing-img {
   flex: 1;
 }
