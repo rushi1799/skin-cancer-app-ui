@@ -6,7 +6,9 @@ import SignUp from "./components/SignUp";
 import Home from "./components/Home";
 
 function App() {
-  return (
+  return 0 ? (
+    <Login />
+  ) : (
     <BrowserRouter>
       <Routes>
         <Route path="/" element={<Landing />} />
