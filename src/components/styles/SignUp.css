@@ -1,4 +1,4 @@
-.Login {
+.Signup {
   height: 100vh;
   width: 100vw;
 
@@ -15,7 +15,7 @@
   font-size: 50px;
   text-align: center;
 }
-.Login-container {
+.Signup-container {
   height: 85%;
   width: 100%;
   display: flex;
@@ -24,10 +24,10 @@
   padding-top: 5rem;
 }
 
-.Login-inner-container {
+.Signup-inner-container {
   background-color: #fff;
   width: 30%;
-  height: 80%;
+  height: 90%;
 
   border-radius: 10px;
   box-shadow: 0px 0px 30px rgba(0, 0, 0, 0.3);
@@ -39,8 +39,8 @@
   padding: 1rem;
 }
 
-.Login-inner-container > h2 {
-  height: 20%;
+.Signup-inner-container > h2 {
+  height: 15%;
   font-weight: 400;
   font-size: 30px;
   display: flex;
@@ -48,14 +48,14 @@
   align-items: center;
 }
 
-.Login-content {
+.Signup-content {
   height: 70%;
   margin-top: 5%;
 }
 
-.Login-content input {
+.Signup-content input {
   width: 100%;
-  height: 15%;
+  height: 13%;
   margin-bottom: 2rem;
   border: 1px solid #ccc;
   border-radius: 0.5rem;
@@ -63,16 +63,16 @@
   font-size: 15px;
 }
 
-.Login-btn-container {
+.Signup-btn-container {
   height: 40%;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
   align-items: center;
 }
-.Login-btn-container .btn {
+.Signup-btn-container .btn {
   width: 100%;
-  height: 50%;
+  height: 40%;
   border-radius: 1rem;
 
   font-size: 20px;

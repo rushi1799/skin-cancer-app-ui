@@ -9,8 +9,13 @@ const Login = (props) => {
         <div className="Login-inner-container">
           <h2>Login</h2>
           <form className="Login-content">
-            <input type="email" required />
-            <input type="password" required minLength={8} />
+            <input type="email" placeholder="Email" required />
+            <input
+              type="password"
+              placeholder="Password"
+              required
+              minLength={8}
+            />
             <div className="Login-btn-container">
               <button className="btn login" type="submit">
                 Log In
