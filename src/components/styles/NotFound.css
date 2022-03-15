@@ -1,0 +1,74 @@
+.Landing {
+  height: 100vh;
+  width: 100vw;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.Landing-header {
+  height: 10%;
+  width: 100%;
+  font-weight: 400;
+  margin-top: 2rem;
+  font-size: 50px;
+  text-align: center;
+}
+.Landing-container {
+  height: 85%;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+.Landing-text {
+  display: flex;
+  flex: 1;
+  align-items: center;
+}
+.Landing-text-container {
+  width: 400px;
+  height: 400px;
+  margin-left: 25%;
+}
+.Landing-text > div > h1 > p {
+  font-size: 50px;
+  letter-spacing: 2px;
+  word-spacing: 5px;
+  font-weight: 400;
+}
+.Landing-text-btn-container {
+  width: 100%;
+  margin-top: 15%;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.Landing-text-btn {
+  padding: 0.7rem 2rem;
+  font-size: 1rem;
+  font-weight: 700;
+  background-color: #fff;
+  margin-right: 2rem;
+  border-radius: 10px;
+  cursor: pointer;
+  border: none;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+  transition: 0.5s;
+}
+.active {
+  background-color: #0000ff;
+  color: #fff;
+}
+.Landing-text-btn:hover {
+  background-color: #0000ff;
+  color: #fff;
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.4);
+}
+.Landing-img {
+  flex: 1;
+}

@@ -7,7 +7,7 @@ import { faArrowRight, faSignInAlt } from "@fortawesome/free-solid-svg-icons";
 const Landing = (props) => {
   return (
     <div className="Landing">
-      <h1 className="Landing-header">Logo</h1>
+      {/* <h1 className="Landing-header">Logo</h1> */}
       <div className="Landing-container">
         <div className="Landing-text">
           <div className="Landing-text-container">

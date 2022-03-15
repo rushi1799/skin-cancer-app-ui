@@ -5,14 +5,14 @@ import { Link } from "react-router-dom";
 const SignUp = (props) => {
   return (
     <div className="Signup">
-      <h1 className="logo">Logo</h1>
+      {/* <h1 className="logo">Logo</h1> */}
       <div className="Signup-container">
         <div className="Signup-inner-container">
           <h2>Sign Up</h2>
           <form className="Signup-content">
             <input type="email" placeholder="Email" required />
             <input
-              type="number"
+              type="tel"
               placeholder="Mobile no"
               required
               minLength={10}

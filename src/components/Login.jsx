@@ -4,7 +4,7 @@ import "./styles/Login.css";
 const Login = (props) => {
   return (
     <div className="Login">
-      <h1 className="logo">Logo</h1>
+      {/* <h1 className="logo">Logo</h1> */}
       <div className="Login-container">
         <div className="Login-inner-container">
           <h2>Login</h2>
